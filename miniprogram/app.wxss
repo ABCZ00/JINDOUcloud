@@ -154,3 +154,7 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+@font-face{
+  font-family: 'SentyTEApro';
+  src: url('https://7465-test-9gurjvueb85c24d4-1303850626.tcb.qcloud.la/%E6%96%B0%E8%92%82%E4%B8%8B%E5%8D%88%E8%8C%B6%E4%B8%93%E4%B8%9A%E7%89%88.ttf?sign=25df48d8d08590d5fed0e27761920196&t=1607828805');
+}

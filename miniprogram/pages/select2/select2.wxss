@@ -1,0 +1,19 @@
+.picture{
+  width: 230px;
+  height: 130px;
+  margin-top: 3rpx;
+  margin-bottom: 3rpx;
+}
+.button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.oneandone{
+  margin-top: 0rpx;
+  margin-bottom: 100rpx;
+}
+
+.ziti{
+  font-family: 'SentyTEApro';
+  font-weight: 700;
+}

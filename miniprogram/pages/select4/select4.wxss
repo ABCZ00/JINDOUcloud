@@ -1,0 +1,36 @@
+.oneandone{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  height:100%;
+}
+.button[plain]
+{ border:0;
+ width: 80px;
+}
+.image{
+ margin: 20;
+ widows: 50px;
+ height: 50px;
+ width:50px;
+}
+.look{
+height:100vh;
+
+}
+.look1{
+  height:100%;
+  width:100%;
+}
+.back{
+position: absolute;
+left:0;
+bottom:0;
+display:block;
+width:100%;
+z-index: -999;
+height: 100%;
+}
+.ziti{
+  font-family: 'SentyTEApro';
+  font-weight: 700;
+}

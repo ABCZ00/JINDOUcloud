@@ -14,7 +14,13 @@ App({
         traceUser: true,
       })
     }
+    
 
     this.globalData = {}
+  },
+  globalData: {
+    collected:[],
+    allhistory:[],
+    list:[],
   }
 })

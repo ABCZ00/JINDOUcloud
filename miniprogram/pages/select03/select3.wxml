@@ -1,0 +1,17 @@
+<view class="oneandone" >
+<view class="oneandone" class="ziti">你收藏的景点：</view>
+<view class="oneandone" wx:for="{{yourlist}}" wx:key="id">
+  <view wx:if="{{item.collected==true}}">
+    <view class="ziti">名称：{{item.name}}</view>
+    <view class="ziti">地址：{{item.address}}</view>
+    <view class="ziti">简介：{{item.summary}}</view>
+  </view>
+</view>
+<view class="oneandone" wx:for="{{showhistory}}" wx:key="id">
+  <view wx:if="{{item.collected==true}}">
+    <view class="ziti">名称：{{item.name}}</view>
+    <view class="ziti">地址：{{item.address}}</view>
+    <view class="ziti">简介：{{item.summary}}</view>
+  </view>
+</view>
+</view>

@@ -1,14 +1,44 @@
 {
   "pages": [
-    "pages/index/index"
+    
+    "pages/index/index",
+    "pages/select2/select2",
+    "pages/select03/select3",
+    "pages/select4/select4",
+    "pages/show/show"
+   
   ],
+  
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "筋斗云",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "tabBar":{
+    "list":[
+      {"text": "测试",
+        "pagePath":"pages/index/index",
+        "iconPath": "components/chatroom/1.png",
+        "selectedIconPath": "components/chatroom/4.png"
+      
+    
+      },
+      {"text": "推荐",
+        "pagePath":"pages/show/show",
+        "iconPath": "components/chatroom/2.png",
+        "selectedIconPath": "components/chatroom/4.png"
+
+      },
+      {"text": "收藏",
+        "pagePath":"pages/select03/select3",
+        "iconPath": "components/chatroom/3.png",
+        "selectedIconPath": "components/chatroom/4.png"
+      }
+    ]
+   
+  }
 }

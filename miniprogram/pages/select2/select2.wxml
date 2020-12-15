@@ -1,0 +1,27 @@
+<!--pages/select2/select2.wxml-->
+<form bindsubmit="mysubmit" bindreset="myreset">
+  <view class="ziti">凭你的感觉，选出你喜欢的风景吧！</view>
+  <view class="ziti">(最多选择两项)</view>
+  <view>
+    <checkbox-group bindchange="mycheck">
+      <view wx:for="{{China}}" wx:key="index">
+        <checkbox value="{{item.rank}}">
+          <image class="picture" mode="aspectFit" src="{{item.pic}}"></image>
+        </checkbox>
+      </view>
+    </checkbox-group>
+    <view class="button">
+      <button class="button" type="primary" plain="true" form-type="submit">提交</button>
+      <button class="button" type="primary" plain="true" form-type="reset">重置</button>
+      <button class="button" type="primary" plain="true" bindtap="toSelect4">查看结果</button>
+    </view>
+  </view>
+  <!-- <view class="oneandone">为您推荐以下景点：</view>
+  <view class="oneandone" wx:for="{{list}}" wx:key="id">
+    
+    <view>名称：{{item.name}}</view>
+    <view>地址：{{item.address}}</view>
+    <view>简介：{{item.summary}}</view>
+    <button bindtap="collect" data-index="{{index}}">收藏</button>
+  </view> -->
+</form>

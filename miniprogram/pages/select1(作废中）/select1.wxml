@@ -1,0 +1,6 @@
+<!--pages/select1/select1.wxml-->
+<form catchsubmit="formSubmit" catchreset="formReset">
+  <input name="input" placeholder="这是一个输入框" />
+  <button formType="submit">Submit</button>
+</form>
+<text>{{name}}</text>

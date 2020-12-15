@@ -1,0 +1,8 @@
+.oneandone{
+  margin-top: 0rpx;
+  margin-bottom: 50rpx;
+}
+.ziti{
+  font-family: 'SentyTEApro';
+  font-weight: 700;
+}

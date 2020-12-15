@@ -1,0 +1,15 @@
+<view class="ziti">
+<view>为您推荐B站优秀旅游视频！</view>
+<view>【温暖油画感旅拍】《伊犁的童话》 </view>
+<view>UP主：练凌飞lkemon</view>
+<video src="/../../components/chatroom/1.《伊犁的童话》4K_3(Av414391297,P1).mp4" ></video>
+<view>西藏·纳木错 座落在苍蓝天空的圣湖</view>
+<view>UP主：公路旅人FOX</view>
+<video src="/../../components/chatroom/1.TIBET02(Av797627812,P1).mp4"></video>
+<view>北京旅游全攻略 规划行程看这就够了！</view>
+<view>UP主：背包旅神</view>
+<video src="/../../components/chatroom/1.beijing 1(Av66020216,P1).mp4"></video>
+<view>哈尔滨Vlog/本地人带你玩</view>
+<view>UP主：樱桃丸小轩</view>
+<video src="/../../components/chatroom/1.更新干货版(Av42150338,P1).mp4"></video>
+</view>
